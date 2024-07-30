@@ -2,6 +2,13 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add wakeup and suspend intents
+* add copyright to CMakeLists
+* [doc] add reference to ROS 1 in README
+* Contributors: Luka Juricic, Séverin Lemaignan
+
 2.0.1 (2023-11-13)
 ------------------
 * add missing dep on action_msgs
