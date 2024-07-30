@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.0 (2024-07-30)
+------------------
 * add wakeup and suspend intents
 * add copyright to CMakeLists
 * [doc] add reference to ROS 1 in README
