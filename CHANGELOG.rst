@@ -2,6 +2,11 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add closed caption message
+* Contributors: Luka Juricic
+
 2.1.0 (2024-07-30)
 ------------------
 * add wakeup and suspend intents
