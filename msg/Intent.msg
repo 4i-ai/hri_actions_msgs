@@ -49,6 +49,13 @@ string intent
 # 'intent' constants
 # see table below for a short description of each.
 
+# this special intent represents a raw user input, without any specific intent recognised.
+# It is used as a fallback to mean that no user intent was (yet) extracted from the user input
+# It might happen when, for instance, a chatbot is unable to recognise an intent.
+# An application receiving this intent can choose to ignore it, or further process it by other 
+# means.
+string RAW_USER_INPUT = __raw_user_input__
+
 string ENGAGE_WITH = __intent_engage_with__
 string MOVE_TO = __intent_move_to__
 string GUIDE = __intent_guide__
@@ -81,6 +88,8 @@ string SUSPEND = __intent_suspend__
 # +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
 # | **Intent**       | **Description**                                                             | **Required thematic roles**                                 | **Optional thematic roles**                                               |
 # +==================+=============================================================================+=============================================================+===========================================================================+
+# | `RAW_USER_INPUT` | the intent was not successfully extracted                                   | - `input`: the raw input received from the user             | - `locale`: the language code of the input, if available                  |
+# +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
 # | `ENGAGE_WITH`    | an agent wants to engage with another one                                   | - `recipient`                                               |                                                                           |
 # +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
 # | `MOVE_TO`        | navigates to a specific location                                            | - `goal`                                                    |                                                                           |
