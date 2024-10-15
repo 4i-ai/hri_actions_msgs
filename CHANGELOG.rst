@@ -2,6 +2,11 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add raw user input intent
+* Contributors: Luka Juricic
+
 2.2.0 (2024-08-01)
 ------------------
 * add closed caption message
