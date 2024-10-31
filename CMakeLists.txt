@@ -34,10 +34,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ClosedCaption.msg"
   "msg/Intent.msg"
   "msg/LookAtWithStyle.msg"
+  "msg/ActivityList.msg"
   "action/ApplicationControl.action"
   "action/FaceOverlay.action"
   "action/LookAt.action"
   "action/PointTrajectory.action"
+  "srv/ListActivities.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
