@@ -2,6 +2,11 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* New message and service to get the list of activities available/running in the welcome demo
+* Contributors: Raquel Ros
+
 2.3.0 (2024-10-15)
 ------------------
 * add raw user input intent
