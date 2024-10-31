@@ -2,6 +2,11 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add presentation action
+* Contributors: Sara Cooper
+
 2.4.0 (2024-10-31)
 ------------------
 * New message and service to get the list of activities available/running in the welcome demo
