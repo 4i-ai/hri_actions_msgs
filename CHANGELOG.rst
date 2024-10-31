@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.4.2 (2024-10-31)
+------------------
 * add back msg mistakenly removed in previous commit
 * Contributors: Séverin Lemaignan
 
