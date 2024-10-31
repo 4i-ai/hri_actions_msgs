@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.4.1 (2024-10-31)
+------------------
 * add presentation action
 * Contributors: Sara Cooper
 
