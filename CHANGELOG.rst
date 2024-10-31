@@ -2,6 +2,11 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add back msg mistakenly removed in previous commit
+* Contributors: Séverin Lemaignan
+
 2.4.1 (2024-10-31)
 ------------------
 * add presentation action
