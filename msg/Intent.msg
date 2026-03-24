@@ -64,6 +64,7 @@ string BRING_OBJECT = __intent_bring_object__
 string PLACE_OBJECT = __intent_place_object__
 string GREET = __intent_greet__
 string SAY = __intent_say__
+string GAZE = __intent_gaze__
 string PRESENT_CONTENT = __intent_present_content__
 string PERFORM_MOTION = __intent_perform_motion__
 string START_ACTIVITY = __intent_start_activity__
@@ -109,6 +110,9 @@ string CONTINUE_ACTIVITY = __intent_continue_activity__
 # | `GREET`          | greet an agent                                                              | - `recipient`                                               |                                                                           |
 # +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
 # | `SAY`            | says some text, optionally annotated with gestures or expressions           | - `object` (the text to say)                                | - `recipient`                                                             |
+# +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
+# | `GAZE`           | manages the robots gaze mode                                                | - `gaze_mode` (one of INDIVIDUAL, GROUP, IDLE, POINT)       |                                                                           |
+# |                  |                                                                             | - `target`                                                  |                                                                           |
 # +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
 # | `PRESENT_CONTENT`| present (via a screen, pre-recorded text...) predefined content             | - `object` (the content identifier)                         | - `recipient`                                                             |
 # +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
